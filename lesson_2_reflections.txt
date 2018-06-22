@@ -1,0 +1,3 @@
+what happens when you initialize a repository? why do you need to do it?
+it creates a .git dir for tracking the files that are in the directory you ran the init command. it lets you have all the data offline that way you dont to be connected to a network to know the files history.
+
