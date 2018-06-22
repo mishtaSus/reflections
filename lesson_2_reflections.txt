@@ -1,3 +1,8 @@
 what happens when you initialize a repository? why do you need to do it?
+
 it creates a .git dir for tracking the files that are in the directory you ran the init command. it lets you have all the data offline that way you dont to be connected to a network to know the files history.
+
+how is the staging area different from the working directory and the repository? what value do you think it offers?
+
+staging area is only a link to the files that are in the working directory. they are there to specify which files from the working directory will be updated in the repository in the up comming commit.
 
