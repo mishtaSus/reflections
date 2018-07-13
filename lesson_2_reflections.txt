@@ -6,3 +6,15 @@ how is the staging area different from the working directory and the repository?
 
 staging area is only a link to the files that are in the working directory. they are there to specify which files from the working directory will be updated in the repository in the up comming commit.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+i can see the diff between the working directory and the staging area and double check that all that is in there is related to one thing only
+
+what are some situations when branches would be helpful in keeping your history organized? how would branches help?
+
+in case you would like to try an experimental feature that will not necessarily will be added to the master.
+
+another possible scenario: at that point the master splits in order to support different features for different costumers - tailor made changes for a particular customer.
+
+how do the diagrams help you visualize the branch structure?
+didnt understand the question..
