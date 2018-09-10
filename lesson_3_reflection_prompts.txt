@@ -4,3 +4,12 @@ second in case you are working on a project with several people, it lets you syn
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 what if someone makes a mistake/ breaks the build, in such case i prefer not to pull that change until he fixes it.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+fork is used only on github and it is the easiest (and maybe the only) to clone remote repositories.
+it also keeps track from whom you forked and purhaps how many forks have been done to the repository.
+this will be used in case you would like to do some changes that you think that will suite you but not to the original repository owner.
+
+clone is to copy a repository locally or from a remote to local.
+
+branch is make inside the same repository - it is to split from the origin (from a cerain commit -> all commits before will be just like the origin) to another version of the project. lets lay i want to develope a new feature that will interfer with the work of the other developers until i will finish it. so i am working on a different branch until it is done and at the end i need to merge that branch back to the origin.
